@@ -8395,6 +8395,11 @@ a.text-dark:focus, a.text-dark:hover {
     margin-right: auto;
 }
 
+/* Format banner to fit screen */
+.banner-img {
+    width: 100%;
+}
+
 /* Table format */
 
 table {
@@ -8432,4 +8437,6 @@ tr:nth-child(even) {
 #cf img.bottom:hover {
     opacity:0;
 }
+
+
 
