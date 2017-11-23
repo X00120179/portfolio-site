@@ -8395,6 +8395,24 @@ a.text-dark:focus, a.text-dark:hover {
     margin-right: auto;
 }
 
+/* Table format */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
 /* Image transition CSS */
 
 #cf {
