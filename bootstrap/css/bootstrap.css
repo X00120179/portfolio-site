@@ -8424,6 +8424,7 @@ tr:nth-child(even) {
     position: relative;
     height: 281px;
     width: 450px;
+    padding-left: 3.3em;
 }
 
 #cf img {
