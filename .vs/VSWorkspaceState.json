@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images"
+    "\\bootstrap",
+    "\\bootstrap\\js"
   ],
-  "SelectedNode": "\\images\\softwares",
+  "SelectedNode": "\\bootstrap\\js\\bootstrap.js",
   "PreviewInSolutionExplorer": false
 }

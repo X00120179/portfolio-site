@@ -4,13 +4,20 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .img {
+            display: block;
+            margin: auto;
+            width: 90%;
+        }
 
+    </style>
 </head>
 <body>
 
@@ -55,7 +62,7 @@
     <div class="container">
         <br>
         <div class="jumbotron text-center">
-            <h1>My Projects</h1>
+            <h1 class="font-weight-light mb-0">My Projects</h1>
             <hr>
 
             <div class="row">
@@ -87,7 +94,7 @@
 
             <!-- Year 2 Modal -->
             <div class="modal fade" id="year2Modal" role="dialog">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-lg">
                     <!-- Modal content-->
                     <div class="modal-content">
                         <div class="modal-header">
@@ -110,31 +117,31 @@
 
                             <hr />
                             <h3>Images</h3>
+                            <br />
 
-                            <!-- Trigger the Modal -->
-                            <img id="myImg" src="images/screenshot (5).png" class="expandImg" alt="2nd year project homepage" width="300" height="200">
+                            <img class="img" src="images/musicFX/musicFXHomeLoggedInTHUMB.png" alt="MusicFX Homepage Logged In" /><br />
+                                <p class="text-center">The MusicFX homepage.</p>
+                            <img class="img" src="images/musicFX/musicFXImgTransitionTHUMB.png" alt="Image Transition On MusicFX Homepage" /><br />
+                                <p class="text-center">Transition on homepage image.</p>
+                            <img class="img" src="images/musicFX/musicFXHomeBottomTHUMB.png" alt="Bottom of MusicFX Homepage" /><br />
+                                <p class="text-center">The bottom half of MusicFX homepage.</p>
+                            <img class="img" src="images/musicFX/musicFXProductsTHUMB.png" alt="MusicFX Products Page" /><br />
+                                <p class="text-center">MusicFX products page.</p>
+                            <img class="img" src="images/musicFX/musicFXSearchTHUMB.png" alt="Search Functionality on MusicFX site" /><br />
+                                <p class="text-center">Search functionality on MusicFX site.</p>  
+                            <img class="img" src="images/musicFX/musicFXCartTHUMB.png" alt="Products in cart MusicFX site" /><br />
+                                <p class="text-center">Products in customers cart.</p>
+                            <img class="img" src="images/musicFX/musicFXPreviousOrdersTHUMB.png" alt="Previous orders logged on MusicFX site" /><br />
+                                <p class="text-center">Customer previous orders logged.</p>
 
-                            <!-- The Modal -->
-                            <div id="myModal" class="modal">
-
-                                <!-- The Close Button -->
-                                <span class="close">&times;</span>
-
-                                <!-- Modal Content (The Image) -->
-                                <img class="modal-content" id="img01">
-
-                                <!-- Modal Caption (Image Text) -->
-                                <div id="caption"></div>
-                            </div>
-
-
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div><!--/Modal-Footer-->
+                        </div><!--/Modal-Body-->
+                    </div><!--/Modal-Content-->
+                </div><!--/Modal-Dialog-->
+            </div><!--/Modal-->
+                
 
             <!-- Year 3 Modal -->
             <div class="modal fade" id="year3Modal" role="dialog">
@@ -188,7 +195,6 @@
                 </div>
             </div>
 
-            </div><!--/Jumbotron-->
 
             <!-- Footer -->
             <footer>
@@ -198,9 +204,9 @@
                         <p>Copyright &copy; 2017</p>
                     </div>
                 </div>
-                <!-- /.row -->
             </footer>
 
+            </div><!--/Jumbotron-->
         </div><!--/Container-->
 
             <!-- Optional JavaScript -->
