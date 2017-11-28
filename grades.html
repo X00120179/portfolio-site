@@ -27,6 +27,13 @@
             color: #000;
         }
         /* selected link   */
+        .nav-tabs li:hover {
+            background-color: lightblue;
+        }
+
+        .nav-tabs > li > a {
+            border-radius: 4px 4px 0 0;
+        }
     </style>
 </head>
 <body>
@@ -104,10 +111,10 @@
     <div class="container">
         
         <br>
-        <h1 class="font-weight-light mb-0">Grades</h1>
+        <h1 class="font-weight-light mb-0"><strong>Grades</strong></h1>
         <hr>
 
-        <ul class="nav nav-tabs">
+        <ul class="nav nav-tabs" style="color:aqua;">
             <li class="active">
                 <a class="nav-link" data-toggle="tab" href="#year1">Year 1</a>
             </li>
@@ -125,131 +132,131 @@
         <div class="tab-content">
             <div class="tab-pane active" id="year1">
                 <br>
-                <h2 class="font-weight-light mb-0">Year 1</h2>
+                <h2 class="font-weight-light mb-0"><strong>Year 1</strong></h2>
                 <hr>
-                <h3 class="font-weight-light mb-0">Semester 1</h3>
+                <h3 class="font-weight-light mb-0"><strong>Semester 1</strong></h3>
                 <br />
                 <table>
                     <tr>
                         <th width="800">Module</th>
-                        <th>Sitting</th>
-                        <th>Grade</th>
+                        <th width="200">Sitting</th>
+                        <th width="100">Grade</th>
                     </tr>
                     <tr>
                         <td>Software Development 1</td>
                         <td>January</td>
-                        <td>A</td>
+                        <td style="background-color: #15a000">A</td>
                     </tr>
                     <tr>
                         <td>Computer Achitecture</td>
                         <td>January</td>
-                        <td>A</td>
+                        <td style="background-color: #15a000">A</td>
                     </tr>
                     <tr>
                         <td>Web & Interface Fundamentals</td>
                         <td>January</td>
-                        <td>B+</td>
+                        <td style="background-color:#20c400">B+</td>
                     </tr>
                     <tr>
                         <td>Business Information Systems</td>
                         <td>January</td>
-                        <td>B</td>
+                        <td style="background-color: #2bef04">B</td>
                     </tr>
                     <tr>
                         <td>Discrete Mathematics</td>
                         <td>January</td>
-                        <td>B</td>
+                        <td style="background-color: #2bef04">B</td>
                     </tr>
                     <tr>
                         <td>Learning to Learn at 3rd Lvl</td>
                         <td>January</td>
-                        <td>B+</td>
+                        <td style="background-color: #20c400">B+</td>
                     </tr>
                 </table>
                 
                 <br>
-                <h3 class="font-weight-light mb-0">Semester 2</h3>
+                <h3 class="font-weight-light mb-0"><strong>Semester 2</strong></h3>
                 <br />
                 <table>
                     <tr>
                         <th width="800">Module</th>
-                        <th>Sitting</th>
-                        <th>Grade</th>
+                        <th width="200">Sitting</th>
+                        <th width="100">Grade</th>
                     </tr>
                     <tr>
                         <td>Software Development 2</td>
                         <td>June</td>
-                        <td>A</td>
+                        <td style="background-color: #15a000">A</td>
                     </tr>
                     <tr>
                         <td>Object Orientated System Analysis</td>
                         <td>June</td>
-                        <td>B+</td>
+                        <td style="background-color:#20c400">B+</td>
                     </tr>
                     <tr>
                         <td>Social Media Communications</td>
                         <td>June</td>
-                        <td>B+</td>
+                        <td style="background-color:#20c400">B+</td>
                     </tr>
                     <tr>
                         <td>Statistics</td>
                         <td>June</td>
-                        <td>B+</td>
+                        <td style="background-color:#20c400">B+</td>
                     </tr>
                     <tr>
                         <td>Database Fundamentals</td>
                         <td>June</td>
-                        <td>A</td>
+                        <td style="background-color: #15a000">A</td>
                     </tr>
                     <tr>
                         <td>Operating System Fundamentals</td>
                         <td>June</td>
-                        <td>B</td>
+                        <td style="background-color:#2bef04">B</td>
                     </tr>
                 </table>
             </div>
 
             <div class="tab-pane" id="year2">
                 <br>
-                <h2 class="font-weight-light mb-0">Year 2</h2>
+                <h2 class="font-weight-light mb-0"><strong>Year 2</strong></h2>
                 <hr>
-                <h3 class="font-weight-light mb-0">Semester 3</h3>
+                <h3 class="font-weight-light mb-0"><strong>Semester 3</strong></h3>
                 <br />
                 <table>
                     <tr>
                         <th width="800">Module</th>
-                        <th>Sitting</th>
-                        <th>Grade</th>
+                        <th width="200">Sitting</th>
+                        <th width="100">Grade</th>
                     </tr>
                     <tr>
                         <td>Software Development 3</td>
                         <td>January</td>
-                        <td>B+</td>
+                        <td  style="background-color:#20c400">B+</td>
                     </tr>
                     <tr>
                         <td>Software Quality Assurance & Testing</td>
                         <td>January</td>
-                        <td>B</td>
+                        <td style="background-color:#2bef04">B</td>
                     </tr>
                     <tr>
                         <td>Networking 1</td>
                         <td>January</td>
-                        <td>B+</td>
+                        <td style="background-color:#20c400">B+</td>
                     </tr>
                     <tr>
                         <td>Database Design & Programming</td>
                         <td>January</td>
-                        <td>C+</td>
+                        <td style="background-color:#b3f902">C+</td>
                     </tr>
                     <tr>
                         <td>Discrete Mathematics 2</td>
                         <td>January</td>
-                        <td>A</td>
+                        <td style="background-color: #15a000">A</td>
                     </tr>
                     <tr>
                         <td>Web Design & Development</td>
                         <td>January</td>
-                        <td>B+</td>
+                        <td style="background-color:#20c400">B+</td>
                     </tr>
                 </table>
 
@@ -259,38 +266,38 @@
                 <table>
                     <tr>
                         <th width="800">Module</th>
-                        <th>Sitting</th>
-                        <th>Grade</th>
+                        <th width="200">Sitting</th>
+                        <th width="100">Grade</th>
                     </tr>
                     <tr>
                         <td>Software Development 4</td>
                         <td>June</td>
-                        <td>B</td>
+                        <td style="background-color:#2bef04">B</td>
                     </tr>
                     <tr>
                         <td>2nd Year Project</td>
                         <td>June</td>
-                        <td>B</td>
+                        <td style="background-color:#2bef04">B</td>
                     </tr>
                     <tr>
                         <td>Networking 2</td>
                         <td>June</td>
-                        <td>B+</td>
+                        <td style="background-color:#20c400">B+</td>
                     </tr>
                     <tr>
                         <td>Management Science</td>
                         <td>June</td>
-                        <td>A</td>
+                        <td style="background-color:#15a000">A</td>
                     </tr>
                     <tr>
                         <td>Object Orientated Analysis & Design</td>
                         <td>June</td>
-                        <td>B</td>
+                        <td style="background-color:#2bef04">B</td>
                     </tr>
                     <tr>
                         <td>Information Security</td>
                         <td>June</td>
-                        <td>B</td>
+                        <td style="background-color:#2bef04">B</td>
                     </tr>
                 </table>
             </div>
@@ -304,38 +311,38 @@
                 <table>
                     <tr>
                         <th width="800">Module</th>
-                        <th>Sitting</th>
-                        <th>Grade</th>
+                        <th width="200">Sitting</th>
+                        <th width="100">Grade</th>
                     </tr>
                     <tr>
                         <td>Algorithms & Data Structures 1</td>
                         <td>January</td>
-                        <td>C+</td>
+                        <td style="background-color:#b3f902">C+</td>
                     </tr>
                     <tr>
                         <td>Web Application Development</td>
                         <td>January</td>
-                        <td>C+</td>
+                        <td style="background-color:#b3f902">C+</td>
                     </tr>
                     <tr>
                         <td>Operating Systems</td>
                         <td>January</td>
-                        <td>B</td>
+                        <td style="background-color:#2bef04">B</td>
                     </tr>
                     <tr>
                         <td>Innovation & Entrepreneurship</td>
                         <td>January</td>
-                        <td>C</td>
+                        <td style="background-color: yellow">C</td>
                     </tr>
                     <tr>
                         <td>Cloud Services & Distributed Computing</td>
                         <td>January</td>
-                        <td>B-</td>
+                        <td style="background-color:#4eff2b">B-</td>
                     </tr>
                     <tr>
                         <td>Advanced Databases</td>
                         <td>January</td>
-                        <td>B</td>
+                        <td style="background-color: #2bef04">B</td>
                     </tr>
                 </table>
 
@@ -345,33 +352,33 @@
                 <table>
                     <tr>
                         <th width="800">Module</th>
-                        <th>Sitting</th>
-                        <th>Grade</th>
+                        <th width="200">Sitting</th>
+                        <th width="100">Grade</th>
                     </tr>
                     <tr>
                         <td>Logic & Problem Solving</td>
                         <td>June</td>
-                        <td>B</td>
+                        <td style="background-color: #2bef04">B</td>
                     </tr>
                     <tr>
                         <td>Algorithms & Data Structures 2</td>
                         <td>June</td>
-                        <td>B+</td>
+                        <td style="background-color:#20c400">B+</td>
                     </tr>
                     <tr>
                         <td>Obect Orientated Analysis & Design 2</td>
                         <td>June</td>
-                        <td>B+</td>
+                        <td style="background-color:#20c400">B+</td>
                     </tr>
                     <tr>
                         <td>3rd Year Project</td>
                         <td>June</td>
-                        <td>C</td>
+                        <td style="background-color:yellow">C</td>
                     </tr>
                     <tr>
                         <td>Network Management</td>
                         <td>June</td>
-                        <td>B+</td>
+                        <td style="background-color:#20c400">B+</td>
                     </tr>
                 </table>
             </div>
@@ -385,8 +392,8 @@
                 <table>
                     <tr>
                         <th width="800">Module</th>
-                        <th>Sitting</th>
-                        <th>Grade</th>
+                        <th width="200">Sitting</th>
+                        <th width="100">Grade</th>
                     </tr>
                     <tr>
                         <td>4th Year Project</td>
@@ -427,8 +434,8 @@
                 <table>
                     <tr>
                         <th width="800">Module</th>
-                        <th>Sitting</th>
-                        <th>Grade</th>
+                        <th width="200">Sitting</th>
+                        <th width="100">Grade</th>
                     </tr>
                     <tr>
                         <td>N/A</td>
