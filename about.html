@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -59,42 +60,177 @@
             <p text-left>Hi and thank you for viewing my portfolio site!</p>
             <p>My name is Lee Healy and I am 21 years of age, currently studying Computer Science in my final year (4th) in The Institute of Technology Tallaght, Dublin, Ireland.</p>
             <p>This website was created as a project given out by my lecture for my Interactive Media Design module.</p>
-            <p>This website gives you an insight into the work I have done over the last 3-4 years at the Institue. Media design is where i'd have most interest in web development. 
-                I enjoy creating dynamic websites from scratch and building them to look professional. 
+            <p>
+                This website gives you an insight into the work I have done over the last 3-4 years at the Institue. Media design is where i'd have most interest in web development.
+                I enjoy creating dynamic websites from scratch and building them to look professional.
                 As you may have seen on the home page, I have created many of my own images for this site. These images were created using Photoshop CC.
-                I rather make most of the images myself as I feel this gives the site a more personal touch and due to the nature of the site 
+                I rather make most of the images myself as I feel this gives the site a more personal touch and due to the nature of the site
                 and the fact that this site is about me and my work, I think that the small personal details give you greater insight into my work.
                 I am very much a team player and enjoy working with others and sharing the equal workload or helping others with their work if they are stuck, especially when deadlines are due or if someone is struggling. I am all for helping others.
             </p>
+
+            <hr />
+
+            <!--College Carousel here-->
+            <div id="CollegeCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#CollegeCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#CollegeCarousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid centered" style="width:700px; height:auto;" src="images/college.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid centered" style="width:700px; height:auto;" src="images/college2.jpg" alt="Second slide">
+                    </div>
+                </div>
+            </div>
+
+            <br />
+            <hr />
+
             <h2 class="font-weight-light mb-0"><strong>My Interests</strong></h2>
             <hr />
-            <p>I have a strong interest in computer hardware, computer software, development and design, technologies, gadgets, and games.
+            <p>
+                I have a strong interest in computer hardware, computer software, development and design, technologies, gadgets, and games.
                 I have a big interest in TV series, films and music. Some of my favourite shows at the moment are:
-                    <ul>
-                        <li>Game of thrones.</li>
-                        <li>Stranger Things.</li>
-                        <li>The Walking Dead.</li>
-                        <li>Peaky Blinders.</li>
-                    </ul>
+                <ul>
+                    <li>Game of thrones.</li>
+                    <li>Stranger Things.</li>
+                    <li>The Walking Dead.</li>
+                    <li>Peaky Blinders.</li>
+                </ul>
             </p>
-             <p>I also have a huge interest in sports such as football, basketball, MMA and boxing. My favourite teams being:
-                    <ul>
-                        <li>Manchester United.</li>
-                        <li>LA Lakers</li>
-                   </ul>
+
+            <hr />
+
+            <!--TV Show Carousel here-->
+            <div id="TVShowCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#TVShowCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#TVShowCarousel" data-slide-to="1"></li>
+                    <li data-target="#TVShowCarousel" data-slide-to="2"></li>
+                    <li data-target="#TVShowCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid centered" style="width:700px; height:400px;" src="images/shows/PeakyBlinders.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid centered" style="width:700px; height:400px;" src="images/shows/WalkingDead.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid centered" style="width:700px; height:400px;" src="images/shows/StrangerThings.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid centered" style="width:700px; height:400px;" src="images/shows/GameOfThrones.jpg" alt="Fourth slide">
+                    </div>
+                </div>
+            </div>
+
+            <br />
+            <hr />
+
+
+            <p>
+                I also have a huge interest in sports such as football, basketball, MMA and boxing. My favourite teams being:
+                <ul>
+                    <li>Manchester United.</li>
+                    <li>LA Lakers</li>
+                </ul>
+
+                <hr />
+
+                <!--Sport Carousel here-->
+                <div id="SportCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#SportCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#SportCarousel" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid centered" style="width:300px; height:auto;" src="images/ManUnited.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid centered" style="width:300px; height:auto;" src="images/LALakers.png" alt="Second slide">
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <hr />
+
+
                 I have 2 All-Ireland medals in Basketball which were both won at the National Basketball Arena in Tallaght. These were won when I played for my secondary school basketball team. I enjoyed my time with the team and we were extremely successful in our years together.
             </p>
-             <p>And some of my favourite MMA fighters and boxers at the moment are:
-                 <ul>
-                     <li>Conor "The Notorious" McGregor.</li>
-                     <li>Jon Jones.</li>
-                     <li>Demetrious "Mighty Mouse" Johnson.</li>
-                     <li>Georges "GSP" St-Pierre.</li>
-                     <li>Anthony Joshua.</li>
-                     <li>Vasyl Lomachenko</li>
-                 </ul>
+            <p>
+                And some of my favourite MMA fighters and boxers at the moment are:
+                <ul>
+                    <li>Conor "The Notorious" McGregor.</li>
+                    <li>Demetrious "Mighty Mouse" Johnson.</li>
+                    <li>Georges "GSP" St-Pierre.</li>
+                    <li>Jon Jones.</li>
+                    <li>Anthony Joshua.</li>
+                    <li>Vasyl Lomachenko</li>
+                </ul>
+
+                <hr />
+
+                <!--Fighter Carousel here-->
+                <div id="FighterCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#FighterCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#FighterCarousel" data-slide-to="1"></li>
+                        <li data-target="#FighterCarousel" data-slide-to="2"></li>
+                        <li data-target="#FighterCarousel" data-slide-to="3"></li>
+                        <li data-target="#FighterCarousel" data-slide-to="4"></li>
+                        <li data-target="#FighterCarousel" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid centered" style="width:700px; height:auto;" src="images/fighters/Mcgregor.jpg" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Conor McGregor</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid centered" style="width:700px; height:auto;" src="images/fighters/mightyMouse.jpg" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 style="color: black;">Demetrious Johnson</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid centered" style="width:700px; height:auto;" src="images/fighters/GSP.jpg" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Georges St-Pierre</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid centered" style="width:700px; height:auto;" src="images/fighters/JonJones.jpg" alt="Fourth slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 style="color: black;">Jon Jones</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid centered" style="width:700px; height:auto;" src="images/fighters/Joshua.jpg" alt="Fifth slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Anthony Joshua</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid centered" style="width:700px; height:auto;" src="images/fighters/Lomachenko.jpg" alt="Sixth slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 >Vasyl Lomachenko</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br />
+                <hr />
+
             </p>
-            
+
             <p>
                 I hope you like my website and find it useful. If you're interested in my work, why not <a href="files/Lee Healy CV.doc" style="color:black; text-decoration: underline" download> download my CV? </a> <br />
             </p>
@@ -109,7 +245,6 @@
                     <p>Copyright &copy; 2017</p>
                 </div>
             </div>
-            <!-- /.row -->
         </footer>
 
     </div><!--/Container-->
