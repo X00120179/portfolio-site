@@ -230,10 +230,13 @@
                             <div id="content4" class="collapse">
                                 <img class="d-block img-fluid centered" style="width:500px; height:auto;" src="images/kinect.jpg" alt="Xbox Kinect v1">
                                 <p>
-                                    At the moment I am creating a checkers game for the user to play completely using there body motion and hand grabbing motion.
-                                    The web app will be made as an ASP.NET MVC Web App on Visual Studio 2017.
-                                    For the graphics and game design I will be using Blender and Unity.
-                                    I am also including the use of Microsoft Azure to host the site and also use the Azure Database to store the user objects and their scoring records.
+                                    For my 4th year project I made a stateless application which was made up of 4 parts. An Angular5 frontend, a SQL database backend, a ASP.Net WebAPI for RESTful commands and a C# game made using Unity.
+									The stateless project uses OAuth2.0 for granting the user a private access token which is then sent back an forth between the server and the client. The server and client look for this token in the HTTP which 
+									lets them know that the user is who they say they are and that the user is also authenticated and trustworthy. The Angular5 frontend enabled the user to register/login and download and play a C# game created in Unity. It also let the user view their highscores on the leaderboard amongst all the other users scores. 
+									When a user gets a highscore the score is sent to the WebAPI via a HTTP response and then the WebAPI queries (INSERTS etc...) to the database via the Entity Framework which is the only way to communicate with the database in this project.
+										
+									Everything is separated for ease of development and management but also to make it more secure in the long run.
+									
                                 </p>
                                 <img class="d-block img-fluid centered" style="width:500px; height:auto;" src="images/Azure.png" alt="Azure Logo">
                             </div>
